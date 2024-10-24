@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <style>
+    body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    }
+    
+    .skkk{
+    padding: 20px;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    width: 500%;
+    border-radius: 6px;
+    }
+
+    form{
+    display: flex;
+    flex-direction: column;
+    }
+
+    label, input {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    column-gap: 25px;
+    }
+    input{
+    width:150%;
+    height: 35px;
+    margin: 12px;
+    }
+
+    button{
+    align-self: flex-end;
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: blue;
+    color: whitesmoke;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 585px;
+    }
+    .sk1{
+    display: inline-flex;
+    gap: 120px;
+    }
+  
+    </style>
+</head>
+<body>
+<div class="skkk">
+<form action="#">
+<h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Registration</h1><br>
+<h2 style="font-family: Arial, Helvetica, sans-serif;">Personal Details</h2><br>
+
+<div class="sk1" >
+<div><label for="a">Full Name</label><br>
+<input type="text" name="name" id="a" placeholder="Enter your name" required><br></div>
+<div><label for="b">Date of Birth</label><br>
+<input type="number" name="name" id="b" placeholder="Enter birth date" required></div>
+<div><label for="c">Email</label><br>
+<input type="email" name="name" id="c" placeholder="Enter Your Email" required></div><br><br>
+</div>
+<div class="sk1">
+<div><label for=d">Mobile Number</label><br>
+<input type="number" name="name" id="d" placeholder="Enter your Number" maxlength="10 required"></div>
+<div><label for="e">Gender</label><br>
+<input type="text" name="name" id="e" placeholder="Enter your Gender" required></div>
+<div><label for="f">Occupation</label><br>
+<input type="text" name="name" id="f" placeholder="Enter Occupation" required></div>
+</div>
+<h2 style="font-family: Arial, Helvetica, sans-serif;">Identity Details</h2>
+<div class="sk1">
+<div><label for="g">Id Type</label><br>
+<input type="text" name="name" id="g" placeholder="Enter your Id" required></div>
+<div><label for="h">Id Number</label><br>
+<input type="number" name="name" id="h" placeholder="Enter your Id Number" maxlength="9" required></div>
+<div><label for="i">Issue Authority</label><br>
+<input type="number" name="name" id="i" placeholder="Enter Issue Department" maxlength="9" required></div>
+</div>
+<div class="sk1">
+<div><label for="j">Issue date</label><br>
+<input type="number" name="name" id="j" placeholder="Enter issue date" required></div>
+<div><label for="k">Issue State</label><br>
+<input type="text" name="name" id="k" placeholder="Enter Id State" required></div>
+<div><label for="l">Expiry date</label><br>
+<input type="number" name="name" id="l" placeholder="Enter Expiry date" required></div>
+</div>
+
+<button>Next→</button>
+</div>
+</form>
+</body>
+</html>
